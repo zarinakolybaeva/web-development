@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Instagram</title>
+    </head>
+    <style>
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.body{
+    display: flex;
+}
+.logo{
+    width: 900px;
+    height: 600px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.right-part{
+    margin-left:0px;
+    margin-top: 50px;
+}
+
+.body-login{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 20px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    width: 350px;
+    height: 365px;
+    text-align: center;
+}
+
+.ig-text{
+    height: 54px;
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.sign-up{
+    text-align: center;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    width: 350px;
+    height: 37px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #262626ef;
+    line-height: 20px;
+}
+
+.sign-up a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+}
+
+
+
+.input-field{
+    font-size: 12px;
+    width: 268px;
+    height: 38px;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    align-items: center;
+    margin: 4px;
+    padding: 5px 10px;
+}
+
+.login-button{
+    margin-top: 10px;
+    width: 268px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #0094f64d; 
+    border-radius: 4px;
+}
+
+.or{
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 5px 18px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.line{
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    padding-bottom: 1px;
+    width: 110px;
+    display: inline-block;
+}
+
+.line-text{
+    display: inline-block;
+    margin: 10px;
+}
+
+.fb-login{
+    display: inline-block;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.fb-login a{
+  
+}
+.fb-text{
+    display:block;
+    margin-top: -55px;
+    text-decoration: none;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+}
+.logo-fb{
+    margin-top:20px;
+    margin-right: 7px;
+    width: 16px;
+    height: 16px;
+}
+.fb-login img{
+    margin-left:-180px;
+    margin-bottom:35px;
+}
+.password{
+    color: #385185;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top:50px;
+    margin-bottom:-20px;
+}
+.box{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.box img{
+    width: 130px;
+    height: 40px;
+    margin: 18px 5px;
+}
+
+.footer{
+    width: 500px;
+    margin-left: -900px;
+    margin-top: 670px;
+    text-align: center;
+}
+.footer-info{
+    display:block;
+    width: 800px;
+    margin: 10px auto auto 10px;
+    font-size: 12px;
+    color:#848484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-info a{
+    color:#848484;
+    display: inline-block;
+    margin: 6px 6px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.login-button{
+  padding:0 8px; 
+  background: #3897f0;
+  border:1px solid 
+}
+.footer-info a:hover{
+    text-decoration: underline;
+}
+.footer-info p{
+    margin-top: 18px;
+    margin-left: 5px;
+}
+    </style>
+    <body>
+        <div class="body">
+            <div>
+                <div class="left-part">
+                    <img class="logo" src="https://www.thesun.co.uk/wp-content/uploads/2020/06/gramgram.png">
+                </div>
+            </div>
+            <div class="right-part">
+                <div class="body-login">
+                    <img class="ig-text" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png">
+                    <input class="input-field" type="text" placeholder="Электронный адрес или номер телефона ">
+                    <input class="input-field" type="text" placeholder="Пароль">
+                    <button class="login-button" type="submit" name="submit" >Войти</button>
+                    <div class="or">
+                        <div class="line"></div>
+                        <p class="line-text">or</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="fb-login"><img class="logo-fb" src="https://www.facebook.com/images/fb_icon_325x325.png">
+                        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%252215vea31cmhc7n136wo078rh7zqornd531gke7fygggj6r1srbhji%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D9e75d596-fae9-47fb-a614-dd6a02e2b793%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%252215vea31cmhc7n136wo078rh7zqornd531gke7fygggj6r1srbhji%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0" class="fb-text">Войти через Facebook</a>
+                        <a href="https://www.instagram.com/accounts/password/reset/" class="password">Забыли пароль?</a>
+                    </div>
+                </div>
+           
+                <div class="sign-up">
+                    <div>У вас еще нет аккаунта? <a href="https://www.instagram.com/accounts/emailsignup/">Зарегистрироваться</a></div>
+                </div>
+                <div class="box">
+                    <div>Установите приложение.</div>
+                    <a target="_blank"  href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo"></a><img src="https://avatars.mds.yandex.net/i?id=07343ef09950da3f3b9bd02477ef4922-5669589-images-thumbs&n=13"></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DB3AA17E7-1A5F-4A76-9D78-7C676CFC9F3E%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="https://avatars.mds.yandex.net/i?id=4efed0fddd84770fd416418afcf0a0ee-4402740-images-thumbs&n=13"></a>
+                </div>
+            </div>
+            <div class="footer"> 
+                <div  class="footer-info">
+                    <a href="">Информация</a>
+                    <a href="">Блог</a>
+                    <a href="">Вакансии</a>
+                    <a href="">Помощь</a>
+                    <a href="">API</a>
+                    <a href="">Конфиденциальность</a>
+                    <a href="">Условия</a>
+                    <a href="">Популярные аккаунты</a>
+                    <a href="">Hashtags</a>
+                    <a href="">Места</a>
+                    <a href="">Красота</a>
+                    <a href="">Танцы</a>
+                    <a href="">Фитнес</a>
+                    <a href="">Еда & Напитки</a>
+                    <a href="">Дом</a>
+                    <a href="">Музыка</a>
+                   
+                    <p> Русский    © 2021 Instagram from Facebook</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
