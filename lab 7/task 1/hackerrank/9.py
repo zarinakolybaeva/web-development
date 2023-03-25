@@ -1,3 +1,8 @@
-s = raw_input()
-i, c = raw_input().split()
-print s[:int(i)] + c + s[int(i)+1:]
+def split_and_join(line):
+    line=line.split(" ")
+    line="-".join(line)
+    return line
+if __name__ == '__main__':
+    line = raw_input()
+    result = split_and_join(line)
+    print result
